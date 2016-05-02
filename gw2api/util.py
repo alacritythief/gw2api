@@ -144,7 +144,7 @@ def decode_chat_link(string):
         return "item", values
 
     link_type_string = None
-    for key, value in gw2api.LINK_TYPES.iteritems():
+    for key, value in gw2api.LINK_TYPES.items():
         if value == link_type:
             link_type_string = key
 

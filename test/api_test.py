@@ -13,7 +13,7 @@ class TestApi(unittest.TestCase):
         map_names = gw2api.continents()
         self.assertIsInstance(map_names, dict)
         keys = ["continent_dims", "floors", "max_zoom", "min_zoom", "name"]
-        for continent_id, continent in map_names.iteritems():
+        for continent_id, continent in map_names.items():
             self.assertEqual(sorted(continent.keys()), keys)
 
         map_names = gw2api.map_names()

@@ -1,6 +1,6 @@
-****************
-Guild Wars 2 API
-****************
+**************************************
+Guild Wars 2 API (python 3 compatible)
+**************************************
 
 gw2api is a Python library to interface with the `Guild Wars 2 API`_. It aims
 to have an almost one-to-one mapping to the JSON API, with only some minor
